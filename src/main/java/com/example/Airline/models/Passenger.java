@@ -5,12 +5,12 @@ public class Passenger {
 //    POJO
 
     //properties
-    private int id;
+    private long id;
     private String name;
     private String emailAddress;
 
     //constructor
-    public Passenger(int id, String name, String emailAddress) {
+    public Passenger(long id, String name, String emailAddress) {
         this.id = id;
         this.name = name;
         this.emailAddress = emailAddress;
@@ -25,11 +25,11 @@ public class Passenger {
     //getters and setters
 
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
