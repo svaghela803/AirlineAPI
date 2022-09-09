@@ -1,5 +1,8 @@
 package com.example.Airline.models;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@Entity(name = "flights")
 public class Flight {
 
 //    POJO
@@ -9,6 +12,7 @@ public class Flight {
     private long capacity;
     private String departureDate;
     private String departureTime;
+
 
     //constructor
     public Flight(long id, long capacity, String departureDate, String departureTime) {

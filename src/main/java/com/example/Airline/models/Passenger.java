@@ -1,5 +1,6 @@
 package com.example.Airline.models;
 
+@Entity(name = "passengers")
 public class Passenger {
 
 //    POJO
